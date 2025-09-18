@@ -317,7 +317,7 @@ spec:
         prometheus.io/path: "/metrics"
       labels:
         app: productpage
-        version: v1
+        version: v2
     spec:
       serviceAccountName: bookinfo-productpage
       containers:
